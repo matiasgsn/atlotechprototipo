@@ -4,7 +4,7 @@
     border: none;
 }
 
-.btn-primary:hover{ /* Resolvendo stick ao apertar o botão */
+.btn-primary:hover{ /* Resolvendo stick do highlight ao apertar o botão */
     background-color: #16345a;
 }
 
