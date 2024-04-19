@@ -8,6 +8,7 @@
     background-color: #16345a;
 }
 
+
 /* Animação dos Botões: Crescer */
 
 @media (max-width: 991.98px) {
@@ -53,3 +54,6 @@
     filter: invert(18%) sepia(60%) saturate(630%) hue-rotate(171deg) brightness(92%) contrast(98%);
 }
 
+.toggledoff {
+    display: none;
+}

@@ -1,11 +1,11 @@
 // Caixas de Input
-let cxLamp = document.querySelector('#nlamp')    // Lâmpadas
-let cxTv = document.querySelector('#ntv');       // TVS
-let cxTvC = document.querySelector('#ntvc');     // TVS Compatíveis
-let cxAr = document.querySelector('#nar');       // Ar condicionados
-let cxArC = document.querySelector('#narc');     // Ar condicionados compatíveis
+let cxLamp = document.querySelector('#nLamp')    // Lâmpadas
+let cxTv = document.querySelector('#nTv');       // TVS
+let cxTvC = document.querySelector('#nTvC');     // TVS Compatíveis
+let cxAr = document.querySelector('#nAr');       // Ar condicionados
+let cxArC = document.querySelector('#nArC');     // Ar condicionados compatíveis
 
-let cxValor = document.querySelector('#vtotal')  // Valor final
+let cxValor = document.querySelector('#vTotal')  // Valor final
 let btnCalcular = document.querySelector('#btnCalcular') // Botão de Calcular Orçamento
 
 // Valor por unidade

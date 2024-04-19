@@ -108,6 +108,65 @@
         </div>
       </div>
 
+      <!-- Sobre a Atlo -->
+      <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-sm">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Sobre a Atlo Tecnologias</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis ante, mattis elementum feugiat sit amet, maximus ornare mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor, leo ut laoreet hendrerit, elit neque rhoncus dolor, eget auctor lacus lectus eu nisl.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+              <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720">
+          </div>
+        </div>
+      </div>
+
+      <!-- Estime seu orçamento-->
+      <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Estime o seu custo!</h1>
+            <p class="col-lg-10 fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam viverra, ipsum a maximus sollicitudin, sem mi sagittis neque, sit amet facilisis risus lorem ac arcu. Vestibulum consectetur in augue sed ullamcorper.</p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+              <div class="form-floating mb-3">
+                <input type="number" name="Lâmpadas" class="form-control" id="nLamp" placeholder="Lâmpadas">
+                <label for="nLamp">Lâmpadas</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="number" name="Televisões Não-Compatíveis" class="form-control" id="nTv" placeholder="Televisões Não-Compatíveis">
+                <label for="nTv">Televisões não compatíveis</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="number" name="Televisões Compatíveis" class="form-control" id="nTvC" placeholder="Televisões Compatíveis">
+                <label for="nTvC">Televisões compatíveis</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="number" name="Aparelhos de ar-condicionado Não-Compatíveis" class="form-control" id="nAr" placeholder="Aparelhos de ar-condicionado Não-Compatíveis">
+                <label for="nAr">Aparelhos de ar-condicionado não compatíveis</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="number" name="Aparelhos de ar-condicionado Compatíveis" class="form-control" id="nArC" placeholder="Aparelhos de ar-condicionado Compatíveis">
+                <label for="nAr">Aparelhos de ar-condicionado compatíveis</label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary mb-3" id="btnCalcular" type="submit" onclick="setTimeout(loading, 1000)">
+                <span class="button__text" id="btnCalcularTxt">Calcular Custo</span>
+                <div class="spinner-border toggledoff" id="btnCalcularSpn" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+              </button>
+              <div class="form-floating mb-3 toggledoff" id="cxVTotal">
+                <input type="text" name="Valor" class="form-control" id="vTotal" value='' readonly>
+                <label for="vTotal">O seu valor é de:</label>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
       <!-- Footer -->
       <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top border-primary">
