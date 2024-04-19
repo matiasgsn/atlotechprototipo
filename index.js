@@ -89,9 +89,10 @@ btnCalcular.addEventListener('click', function(orcamentofinal) {
     let qtdArC = cxArC.value      // Ar condicionados compatíveis
 
     let vtotal = (qtdLamp * vLamp) + (qtdTv * vTv) + (qtdTvC * vTvC) + (qtdAr * vAr) + (qtdArC * vArC)
-    cxValor.value = vtotal
+    cxValor.value = "R$" + parseFloat(vtotal).toFixed(2).replace('.', ',')
     orcamentofinal.preventDefault()
 
+    cxVTotal.classList.add('toggledoff')
     btnCalcularTxt.classList.add('toggledoff')
     btnCalcularSpn.classList.remove('toggledoff')
 })
