@@ -4,12 +4,22 @@
     border: none;
 }
 
-/* Animação dos Botões: Crescer */
-.anim-grow {
-    transition: transform 0.3s ease 0s;
+.btn-primary:hover{ /* Resolvendo stick ao apertar o botão */
+    background-color: #16345a;
 }
 
+/* Animação dos Botões: Crescer */
+
+
 @media (hover: hover) and (pointer: fine) {
+    .anim-grow {
+        transition: transform 0.3s ease 0s;
+    }
+    
+    .btn-primary:hover{ 
+        background-color:#0d6efd;
+    }
+
     .anim-grow:hover {
         transform:scale(1.1, 1.1);
     }
