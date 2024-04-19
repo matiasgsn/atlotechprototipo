@@ -4,7 +4,7 @@
     border: none;
 }
 
-/* Animação dos Botões */
+/* Animação dos Botões: Crescer */
 .anim-grow {
     transition: transform 0.3s ease 0s;
 }
