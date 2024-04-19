@@ -11,6 +11,7 @@ btnMode.addEventListener('click', function(modeswap){
         document.body.setAttribute('data-bs-theme', 'dark')
         logo.classList.add('white')
         modeimg.setAttribute('src', 'lightmode.svg')
+        
     } else {
         selected = 0
         document.body.setAttribute('data-bs-theme', 'light')
@@ -18,3 +19,4 @@ btnMode.addEventListener('click', function(modeswap){
         modeimg.setAttribute('src', 'darkmode.svg')
     }
 })
+
