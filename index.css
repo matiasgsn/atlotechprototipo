@@ -54,6 +54,6 @@
     filter: invert(18%) sepia(60%) saturate(630%) hue-rotate(171deg) brightness(92%) contrast(98%);
 }
 
-.toggledoff {
+.toggledoff { /* Desabilitado */
     display: none;
 }
