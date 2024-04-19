@@ -10,6 +10,16 @@
 
 /* Animação dos Botões: Crescer */
 
+@media (max-width: 991.98px) {
+    #hero {
+        margin-top: -5%;
+    }
+
+    #btnMode {
+        padding: 0.8rem;
+    }
+}
+
 
 @media (hover: hover) and (pointer: fine) {
     .anim-fast {
