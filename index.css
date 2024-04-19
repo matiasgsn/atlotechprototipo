@@ -27,10 +27,18 @@
     .anim-grow-md:hover {
         transform:scale(1.1, 1.1);
     }
+
+    #whatsapp:hover {
+        filter: invert(71%) sepia(22%) saturate(1331%) hue-rotate(88deg) brightness(88%) contrast(103%);
+    }
 }
 
-/* Toggle do modo branco */
+/* Toggle de cor */
 
 .white {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(206deg) brightness(103%) contrast(105%);
+}
+
+.atlo-primary {
+    filter: invert(18%) sepia(60%) saturate(630%) hue-rotate(171deg) brightness(92%) contrast(98%);
 }
