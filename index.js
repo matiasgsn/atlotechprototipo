@@ -63,7 +63,7 @@ let cxVTotal = document.querySelector('#cxVTotal') // Caixa do Valor Total
 let btnCalcularTxt = document.querySelector('#btnCalcularTxt') // Texto do Botão de Calcular
 let btnCalcularSpn = document.querySelector('#btnCalcularSpn') // Spinner do Botão de Calcular
 
-// Valor por unidade
+// Valor por unidade (ALTERAR PREÇOS AQUI)
 const vLamp = 1
 const vTv = 1
 const vTvC = 1
