@@ -52,6 +52,9 @@ let cxTv = document.querySelector('#nTv')       // TVS
 let cxTvC = document.querySelector('#nTvC')     // TVS Compatíveis
 let cxAr = document.querySelector('#nAr')       // Ar condicionados
 let cxArC = document.querySelector('#nArC')     // Ar condicionados compatíveis
+let cxVen = document.querySelector('#nVen')     // Ventiladores
+let cxVenC = document.querySelector('#nVenC')     // Ventiladores compatíveis
+let cxOutC = document.querySelector('#nOutC')     // Outros dispositivos compatíveis
 
 let cxValor = document.querySelector('#vTotal')  // Valor final
 let btnCalcular = document.querySelector('#btnCalcular') // Botão de Calcular Orçamento
@@ -66,6 +69,9 @@ const vTv = 1
 const vTvC = 1
 const vAr = 1
 const vArC = 1
+const vVen = 1
+const vVenC = 1
+const vOutC = 1
 
 function loading() {
     btnCalcularSpn.classList.add('toggledoff')
@@ -87,8 +93,11 @@ btnCalcular.addEventListener('click', function(orcamentofinal) {
     let qtdTvC = cxTvC.value      // TVS Compatíveis
     let qtdAr = cxAr.value        // Ar condicionados
     let qtdArC = cxArC.value      // Ar condicionados compatíveis
+    let qtdVen = cxVen.value      // Ventiladores
+    let qtdVenC = cxVenC.value    // Ventiladores compatíveis
+    let qtdOutC = cxOutC.value    // Outros dispositivos compatíveis
 
-    let vtotal = (qtdLamp * vLamp) + (qtdTv * vTv) + (qtdTvC * vTvC) + (qtdAr * vAr) + (qtdArC * vArC)
+    let vtotal = (qtdLamp * vLamp) + (qtdTv * vTv) + (qtdTvC * vTvC) + (qtdAr * vAr) + (qtdArC * vArC) + (qtdVen * vVen) + (qtdVenC * vVenC) + (qtdOutC * vOutC)
     cxValor.value = "R$" + parseFloat(vtotal).toFixed(2).replace('.', ',')
     orcamentofinal.preventDefault()
 
