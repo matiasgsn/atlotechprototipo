@@ -97,3 +97,16 @@ btnCalcular.addEventListener('click', function(orcamentofinal) {
     btnCalcularSpn.classList.remove('toggledoff')
 })
 
+let btnContato = document.querySelector("#btnContato")
+let btnContatoIcon = document.querySelector("#btnContatoIcon")
+
+btnContato.addEventListener('mouseover', function(glowup) {
+    btnContatoIcon.classList.remove('white')
+    btnContatoIcon.classList.add('whatsapp-green')
+})
+
+btnContato.addEventListener('mouseout', function(glowdown) {
+    btnContatoIcon.classList.remove('whatsapp-green')
+    btnContatoIcon.classList.add('white')
+})
+

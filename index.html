@@ -34,7 +34,7 @@
         </div>
       </div>
 
-      <!-- Cards -->
+      <!-- Benefícios -->
       <div class="container px-4 py-5" id="custom-cards">
         <h2 class="pb-2 border-bottom">Benefícios</h2>
         
@@ -108,6 +108,17 @@
         </div>
       </div>
 
+      <!-- Contato -->
+      <div style="padding-inline: 30%;">
+        <div class="h-100 p-5 text-bg-dark rounded-3">
+          <h2>Quer saber o custo exato para fechar o serviço?</h2>
+          <p>Contate-nos e fale com um dos nossos especialistas!</p>
+              <button class="btn btn-outline-light m-3 p-3 anim-fast anim-grow-md" id="btnContato" type="button" onclick="location.href='https://api.whatsapp.com/send?phone=75991978464'" type="button">
+                <img src="whatsapp-ico.svg" alt="whatsapp" class="white" id="btnContatoIcon" width="30" height="30" style="margin-right: 1vh;">Contatar
+              </button>
+        </div>
+      </div>
+
       <!-- Sobre a Atlo -->
       <div class="container my-5">
         <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-sm">
@@ -152,7 +163,7 @@
                 <input type="number" name="Ar-condicionados Compatíveis" class="form-control" id="nArC" placeholder="Ar-condicionados Compatíveis">
                 <label for="nAr">Ar-condicionados compatíveis</label>
               </div>
-              <button class="w-100 btn btn-lg btn-primary mb-3" id="btnCalcular" type="submit" onclick="setTimeout(loading, 1000)">
+              <button class="w-100 btn btn-lg btn-primary mb-3 anim-fast anim-grow-md" id="btnCalcular" type="submit" onclick="setTimeout(loading, 1000)">
                 <span class="button__text" id="btnCalcularTxt">Calcular Custo</span>
                 <div class="spinner-border toggledoff" id="btnCalcularSpn" role="status">
                   <span class="visually-hidden">Loading...</span>
@@ -178,7 +189,7 @@
           </div>
       
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="whatsapp-ico.svg" alt="whatsapp" class="atlo-primary anim-fast anim-grow-md" id="whatsapp" width="35" height="35"></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://api.whatsapp.com/send?phone=75991978464"><img src="whatsapp-ico.svg" alt="whatsapp" class="atlo-primary anim-fast anim-grow-md" id="whatsapp" width="35" height="35"></a></li>
           </ul>
         </footer>
       </div>

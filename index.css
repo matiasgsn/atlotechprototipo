@@ -54,6 +54,10 @@
     filter: invert(18%) sepia(60%) saturate(630%) hue-rotate(171deg) brightness(92%) contrast(98%);
 }
 
-.toggledoff { /* Desabilitado */
+.whatsapp-green{
+    filter: invert(71%) sepia(22%) saturate(1331%) hue-rotate(88deg) brightness(88%) contrast(103%);
+}
+
+.toggledoff { /* Desabilitar */
     display: none;
 }
