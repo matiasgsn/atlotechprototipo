@@ -29,8 +29,17 @@
       <div class="mb-4 bg-body-tertiary rounded-3 border-bottom border-primary" id="hero" style="padding-inline: 18%;">
         <div class="container-fluid py-5">
           <h1 class="display-5 fw-bold">Você sabe o que é automação residencial?</h1>
-          <p class="col-md-8 fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat mi at nibh euismod, id iaculis turpis ultricies. Donec volutpat, enim nec suscipit blandit, leo sem tincidunt sapien, eu iaculis turpis nulla sit amet sapien.</p>
+          <p class="col-md-8 fs-4">Automação residencial é a integração de tecnologia em residências para oferecer controle e automação de várias funções e dispositivos. Isso inclui gerenciamento de iluminação, controle de temperatura, segurança e muito mais. Resumidamente, você poderá controlar a sua casa pelo celular ou pela sua voz!</p>
           <button class="btn btn-primary btn-lg anim-fast anim-grow-md" type="button">Saiba mais</button>
+        </div>
+      </div>
+
+      <div class="px-4 py-4 mt-5 mb-3 text-center border rounded-5 w-75 mx-auto">
+        <div class="overflow-hidden">
+          <h1 class="display-7 fw-normal my-5 fw-bold">Assista ao vídeo e entenda como a automação pode mudar a sua vida</h1>
+          <div class="ratio ratio-16x9 rounded-5">
+            <iframe class="embed-responsive-item rounded-5" src="https://www.youtube.com/embed/JJis0sld2cM?autoplay=1" title="2 hours of chill video game music 🍹" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
 
@@ -41,21 +50,22 @@
         
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
           <!-- Card 1 -->
-          <div class="col anim-fast anim-grow-sm">
+          <div class="col anim-fast anim-grow-sm" id="benefCard">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">_________________________</h3>
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Comodidade</h3>
+                <h3 class="mb-5 display-6 lh-1 fs-4 fw-light">Controle luzes, ar condicionados, televisões e vários dispositivos da sua casa apenas falando ou tocando no celular!</h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
                     <img src="favicon.png" alt="Icon1" width="32" height="32" class="rounded-circle border border-white bg-light">
                   </li>
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                    <small>_________</small>
+                    <small></small> <!-- Espaço vazio -->
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                    <small>___</small>
+                    <small></small> <!-- Espaço vazio -->
                   </li>
                 </ul>
               </div>
@@ -63,21 +73,22 @@
           </div>
           
           <!-- Card 2 -->
-          <div class="col anim-fast anim-grow-sm">
+          <div class="col anim-fast anim-grow-sm" id="benefCard">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">_____________________________________________</h3>
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Segurança</h3>
+                <h3 class="mb-5 display-6 lh-1 fs-4 fw-light">Possua todo o sistema de segurança da sua casa na palma da sua mão! controle portas, câmeras, alarmes e muito mais sem ter que estar pessoalmente na sua casa.</h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
                     <img src="favicon.png" alt="Icon2" width="32" height="32" class="rounded-circle border border-white bg-light">
                   </li>
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                    <small>________</small>
+                    <small></small> <!-- Espaço vazio -->
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                    <small>__</small>
+                    <small></small> <!-- Espaço vazio -->
                   </li>
                 </ul>
               </div>
@@ -85,21 +96,22 @@
           </div>
     
           <!-- Card 3 -->
-          <div class="col anim-fast anim-grow-sm">
+          <div class="col anim-fast anim-grow-sm" id="benefCard">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">________________________________________</h3>
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Eficiência</h3>
+                <h3 class="mb-5 display-6 lh-1 fs-4 fw-light" id="benefCardText">A automação residencial é sinônimo de eficiência. Ao otimizar o uso de energia, controlando lâmpadas, ar condicionados e outros aparelhos, você torna o seu lar mais econômico.</h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
                     <img src="favicon.png" alt="Icon3" width="32" height="32" class="rounded-circle border border-white bg-light">
                   </li>
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                    <small>__________</small>
+                    <small></small> <!-- Espaço vazio -->
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                    <small>__</small>
+                    <small></small> <!-- Espaço vazio -->
                   </li>
                 </ul>
               </div>
@@ -111,20 +123,21 @@
       <!-- Contato -->
       <div style="padding-inline: 18%;">
         <div class="h-100 p-5 text-bg-dark border rounded-3">
-          <h2>Quer saber o custo exato para fechar o serviço?</h2>
-          <p>Contate-nos e fale com um dos nossos especialistas!</p>
+          <h2>Quer saber o investimento exato para transformar o seu lar?</h2>
+          <p>Contate-nos e tire todas as suas dúvidas com um dos nossos especialistas!</p>
               <button class="btn btn-outline-light m-3 p-3 anim-fast anim-grow-md" id="btnContato" type="button" onclick="location.href='https://api.whatsapp.com/send?phone=75991978464'" type="button">
-                <img src="whatsapp-ico.svg" alt="whatsapp" class="white" id="btnContatoIcon" width="30" height="30" style="margin-right: 1vh;">Contatar
+                <img src="whatsapp-ico.svg" alt="whatsapp" class="white" id="btnContatoIcon" width="30" height="30" style="margin-right: 1vh;">Contatar agora
               </button>
         </div>
       </div>
 
       <!-- Sobre a Atlo -->
-      <div class="container my-5">
-        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-sm">
+      <div class="container my-5 pt-5">
+        <div class="row p-4 pt-5 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-sm">
           <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Sobre a Atlo Tecnologias</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis ante, mattis elementum feugiat sit amet, maximus ornare mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor, leo ut laoreet hendrerit, elit neque rhoncus dolor, eget auctor lacus lectus eu nisl.</p>
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis" id="sobreTitulo">Sobre a Atlo Tecnologias</h1>
+            <p class="lead">A Atlo Tecnologia é uma empresa líder em automação residencial, oferecendo soluções inovadoras para transformar residências em espaços inteligentes e conectados. Com uma equipe especializada e produtos de alta qualidade, estamos comprometidos em proporcionar conforto, segurança e eficiência aos lares dos nossos clientes.</p>
+            <button class="btn btn-primary btn-lg anim-fast anim-grow-md" id="conhecamais" type="button">Conheça mais</button>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
             </div>
           </div>
@@ -134,12 +147,12 @@
         </div>
       </div>
 
-      <!-- Estime seu orçamento-->
+      <!-- Estime seu investimento-->
       <div class="container col-xl-10 col-xxl-8 px-4 py-5">
         <div class="row align-items-center g-lg-5 py-5">
           <div class="col-lg-7 text-center text-lg-start">
-            <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Estime o seu custo!</h1>
-            <p class="col-lg-10 fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam viverra, ipsum a maximus sollicitudin, sem mi sagittis neque, sit amet facilisis risus lorem ac arcu. Vestibulum consectetur in augue sed ullamcorper.</p>
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Estime o seu investimento!</h1>
+            <p class="col-lg-10 fs-4">Quer ter uma base de quanto você terá que investir para automatizar a sua casa? É muito simples! Basta digitar ao lado a quantidade de dispositivos para controlar, dentro de suas respectivas categorias. Ao terminar, clique em "Calcular investimento"</p>
           </div>
           <div class="col-md-10 mx-auto col-lg-5">
             <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
@@ -176,14 +189,14 @@
                 <label for="nOutC">Outros dispositivos compatíveis</label>
               </div>
               <button class="w-100 btn btn-lg btn-primary mb-3 anim-fast anim-grow-md" id="btnCalcular" type="submit" onclick="setTimeout(loading, 1000)">
-                <span class="button__text" id="btnCalcularTxt">Calcular Custo</span>
+                <span class="button__text" id="btnCalcularTxt">Calcular Investimento</span>
                 <div class="spinner-border toggledoff" id="btnCalcularSpn" role="status">
                   <span class="visually-hidden">Loading...</span>
                 </div>
               </button>
               <div class="form-floating mb-3 toggledoff" id="cxVTotal">
                 <input type="text" name="Valor" class="form-control" id="vTotal" value='' readonly>
-                <label for="vTotal">O seu valor é de:</label>
+                <label for="vTotal">O seu investimento será de aproximadamente:</label>
               </div>
             </form>
           </div>

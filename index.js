@@ -73,6 +73,7 @@ const vVen = 1
 const vVenC = 1
 const vOutC = 1
 
+// Loading do Cálculo
 function loading() {
     btnCalcularSpn.classList.add('toggledoff')
     btnCalcularTxt.classList.remove('toggledoff')
@@ -83,9 +84,10 @@ function loading() {
 }
 
 function resetBtn () {
-    btnCalcularTxt.textContent = "Calcular Custo"
+    btnCalcularTxt.textContent = "Calcular Investimento"
 }
 
+// Cálculo do Valor
 btnCalcular.addEventListener('click', function(orcamentofinal) {
     // Valor inputado das Caixas
     let qtdLamp = cxLamp.value    // Lâmpadas
