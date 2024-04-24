@@ -71,7 +71,7 @@ const vAr = 119.90 // Ar condicionados
 const vArC = 49.90 // Ar condicionados compatíveis
 const vVen = 170.00 // Ventiladores
 const vVenC = 49.90 // Ventiladores compatíveis
-const vOutC = 1 // Outros dispositivos compatíveis
+const vOutC = 39.90 // Outros dispositivos compatíveis
 
 // Loading do Cálculo
 function loading() {
