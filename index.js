@@ -64,14 +64,14 @@ let btnCalcularTxt = document.querySelector('#btnCalcularTxt') // Texto do Botã
 let btnCalcularSpn = document.querySelector('#btnCalcularSpn') // Spinner do Botão de Calcular
 
 // Valor por unidade (ALTERAR PREÇOS AQUI)
-const vLamp = 1
-const vTv = 1
-const vTvC = 1
-const vAr = 1
-const vArC = 1
-const vVen = 1
-const vVenC = 1
-const vOutC = 1
+const vLamp = 70.00 // Lâmpadas
+const vTv = 120.00 // TVs
+const vTvC = 39.90 // TVs Compatíveis
+const vAr = 119.90 // Ar condicionados
+const vArC = 49.90 // Ar condicionados compatíveis
+const vVen = 49.90 // Ventiladores
+const vVenC = 170.00 // Ventiladores compatíveis
+const vOutC = 1 // Outros dispositivos compatíveis
 
 // Loading do Cálculo
 function loading() {
