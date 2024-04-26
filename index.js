@@ -13,20 +13,12 @@ function styleWhiteAdd() { // Define os ícones a receberem o filtro .white
     // Logos da Atlo
     logoAtlo[0].classList.add('white')
     logoAtlo[1].classList.add('white')
-
-    // Whatsapp
-    iconWhatsapp.classList.remove('atlo-primary')
-    iconWhatsapp.classList.add('white')
 }
 
 function styleWhiteRemove() { // Define os ícones a perderem o filtro .white
     // Logos da Atlo
     logoAtlo[0].classList.remove('white')
     logoAtlo[1].classList.remove('white')
-
-    // Whatsapp
-    iconWhatsapp.classList.remove('white')
-    iconWhatsapp.classList.add('atlo-primary')
 }
 
 btnMode.addEventListener('click', function(modeswap){
